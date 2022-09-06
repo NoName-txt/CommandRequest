@@ -1,9 +1,0 @@
-# CommandRequest
-# Usage:
-# It can only be used with the Post method.
-# localhost:8080/command?username=root&password=secret&command=op NoNametxt
-
-username: "root"
-password: "secret" 
-url: "/command" # localhost:PORT/command
-port: 8080 # localhost:8080
