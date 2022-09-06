@@ -9,11 +9,11 @@
   
 ```js
 function opPlayer(username){
-  const post = fetch("localhost:8080/command?username=root&password=secret&command=op NoNametxt", {method: "POST"})
+  const post = fetch(`localhost:8080/command?username=root&password=secret&command=op ${username}`, {method: "POST"})
     .then(res => res.json());
   console.log(post);
 }
-//Returns true if Successful
+opPlayer("NoNametxt");
 ```
 
 </details>
