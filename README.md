@@ -9,7 +9,7 @@
   
 ```js
 function opPlayer(username){
-  const post = fetch(`localhost:8080/command?username=root&password=secret&command=op ${username}`, {method: "POST"})
+  const post = fetch(`http://localhost:8080/command?username=root&password=secret&command=op ${username}`, {method: "POST"})
     .then(res => res.json());
   console.log(post);
 }
